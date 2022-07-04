@@ -1,0 +1,10 @@
+.sidemenu {
+    grid-area: 4 / 2 / 10 / 4;
+    background-color: rgb(155, 155, 155);
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

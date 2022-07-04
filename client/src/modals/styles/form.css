@@ -1,0 +1,40 @@
+.modal {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.is-open {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+    border-radius: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
