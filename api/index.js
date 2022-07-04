@@ -28,7 +28,6 @@ server.get("/tenbooks", (req, res) => {
       .limit(10)
       .then((r) => res.send(r));
   } catch (error) {
-    console.log("hubo un error");
     res.send(error);
   }
 });
