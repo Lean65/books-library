@@ -3,6 +3,7 @@ package-lock.json
 CONSIGNA.txt
 pruebas.js
 .env
+node_modules
 
 # Logs
 logs
