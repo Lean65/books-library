@@ -16,5 +16,6 @@ terminal de Visual Studio (reemplazando los puntos por la URL)
 7) Ingresa "npm start", si todo salio bien el servidor deberia comenzar a funcionar.
 
 8) Abrir una NUEVA TERMINAL y repetir los pasos 6) y 7) cambiando "cd api" por "cd client".
+*Es necesario mantener AMBAS terminales funcionando
 
 9) En esta nueva terminal clickea donde dice "http://localhost:3001/" mientras pulsas la tecla "Crtl". Esto va a abrir la interfaz de la pagina.
